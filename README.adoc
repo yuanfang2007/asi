@@ -5,6 +5,12 @@ projects: [spring-framework]
 
 project_id: gs-rest-service
 
+== Run the program with IDE
+If you are using Eclipse with Spring Tool Suite.
+You can open the project with Eclipse. 
+Then run it by right clicking on Application.java, choose "Run As Spring Boot Application". 
+
+
 == Package into a self executable jar
 If you are using Gradle, you can run the application using `./gradlew bootRun`.  Or you can build the JAR file using `./gradlew build`. Then you can run the JAR file:
 
