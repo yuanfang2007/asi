@@ -22,7 +22,7 @@ public class AsiEquationSolverControllerTests {
     private MockMvc mockMvc;
 
     @Test
-    public void noParamGreetingShouldReturnDefaultMessage() throws Exception {
+    public void testAsiEquationSolverControllerPost() throws Exception {
 
         this.mockMvc.perform(post("/v1/solver?coefficients=[2,2,-59,-29]&searchRange=[0,100]")).andDo(print()).andExpect(status().isOk())
                 .andExpect(jsonPath("$.root").value(30.0));
