@@ -14,3 +14,9 @@ java -jar build/libs/gs-rest-service-0.1.0.jar
 ....
 
 Logging output is displayed. The service should be up and running within a few seconds.
+
+Example:
+
+yuan@mac:~/workspace/sde/asi/gs-rest-service/complete$ ./gradlew build
+
+yuan@mac:~/workspace/sde/asi/gs-rest-service/complete$ java -jar build/libs/gs-rest-service-0.1.0.jar
